@@ -1,3 +1,4 @@
+library('jsonlite')
 getDataFromAPI <- function(url) {
   data_df <- NULL
   attempt <- 0
